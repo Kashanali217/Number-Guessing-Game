@@ -28,7 +28,7 @@ while i < 7:
     elif user_input < random_number:
         print("Higher Number Please!")
     else:
-        print(f"Congratulations! You Guessed it in {i}guesses. It was {random_number}")
+        print(f"Congratulations! You Guessed it in {i} guesses. It was {random_number}")
         break
 else:
     print(f"Sorry, you didn't guess the number. It was {random_number}.")
